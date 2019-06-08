@@ -1,4 +1,12 @@
+---
+title: "Plotting Graphs in R"
+author: "Palash Gujrathi"
+date: "8th June 2019"
+output: html_document
+---
+
 # Introduction to Data Visualization.
+<br>
 ![](imgs/data_img.png)
 
 > ### What is Data Visualization?
