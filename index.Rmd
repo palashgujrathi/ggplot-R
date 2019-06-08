@@ -8,7 +8,9 @@ output: html_document
 # Introduction to Data Visualization.
 
 <br>
+</center>
 ![](imgs/data_img.png)
+</center>
 
 > ### What is Data Visualization?
 
@@ -47,16 +49,19 @@ Scatter plot are the easiest graph to plot. In order to plot the ``data_set`` da
 
 ``ggplot(data = data_set) +
   geom_point(mapping = aes(x = displ, y = hwy))``
-
+<center>
   ![](imgs/scatter_plot.png)
+  </center>
+
 <b>
 You can even plot the different variable on the scatter plot. This is called aesthetic mapping. In order to use the aesthetic function use the following line of code.
 </b>
 
   ``ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy, color = class))``
-
+<center>
   ![](imgs/aes_scatter_plot_1.png)
+  </center>
 
   The above plot uses the aesthetic mapping so that we can plot the different ``class`` of vehicles on the plot by their ``hwy`` and ``displ``.
 </b>
@@ -68,8 +73,9 @@ Bar plots are one of the most common way to visualize data. In order to plot a b
 </b>
 ``ggplot(data=df, aes(x=dose, y=len)) +
   geom_bar(stat="identity")``
-
+<center>
   ![](imgs/bar_plot.png)
+  </center>
 
 > ## Line Graph  
 
@@ -83,7 +89,9 @@ Line graphs are really useful to show a trend in a data over a time period. You 
 The above line of code will plot a line graph for the ``charts`` data with X-axis having the ``year`` variable and Y-variable having the ``export`` variable with the ``product`` variable being plotted.
 </b>
 
+<center>
 ![](imgs/line_plot.png)
+</center>
 
 > ## Histogram  
 
@@ -91,8 +99,9 @@ The above line of code will plot a line graph for the ``charts`` data with X-axi
 The following line of code will plot a histogram with the values form the ``AGE`` column of the ``chol`` data set.
 
 ``ggplot(data=chol, aes(chol$AGE)) + geom_histogram()``
-
+<center>
 ![](imgs/histogram.png)
+</center>
 
 > ## Pie Chart  
 
@@ -107,8 +116,9 @@ You can plot a pie chart using the following line of code.
 <b>
 The above line of code will plot a pie chart using the ``diamonds`` data set and will fill each slice with the cut column.
 </b>
-
+<center>
 ![](imgs/pie.png)
+</enter>
 
 
 > ## Resources
