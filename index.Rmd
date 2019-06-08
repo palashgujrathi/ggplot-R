@@ -6,6 +6,7 @@ output: html_document
 ---
 
 # Introduction to Data Visualization.
+
 <br>
 ![](imgs/data_img.png)
 
